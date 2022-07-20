@@ -11,7 +11,7 @@ Diceware Wordlists
 
 ::
 
-    keepassxc-cli -w beale.wl.txt
+    keepassxc-cli diceware -w beale.wl.txt
 
     pip install diceware
     pip install pwgen-passphrase
