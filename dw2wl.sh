@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Convert a diceware wordlist into a flat wordlist
+
 files="${1}"
 
 if [ -z "${files}" ] ; then
@@ -7,8 +9,6 @@ if [ -z "${files}" ] ; then
     exit 1
 fi
 
-for wordlist in ${files}; do
-    cat ${wordlist} | cut -f 2 > ${wordlist}.wordlist
-    rename -f 's/_wordlist//g' *.wordlist
-    rename -f 's/\.txt//g' *.wordlist
+for file in ${files}; do
+    cat ${file} | cut -f 2 > ${file/dw/wl}
 done
