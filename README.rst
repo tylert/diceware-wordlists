@@ -1,6 +1,14 @@
 Diceware Wordlists
 ==================
 
+Examples::
+
+    $ keepassxc-cli diceware -w beale.wl.txt
+    honda civic his pick gag digit gt
+
+    $ keepassxc-cli diceware -w francais.wl.txt
+    mg fart rifles voire faudra revit gariez
+
 * http://world.std.com/%7Ereinhold/diceware.html
 * https://www.eff.org/dice
 * https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
@@ -13,8 +21,6 @@ Diceware Wordlists
 * https://github.com/xmikos/pwgen-passphrase
 
 ::
-
-    keepassxc-cli diceware -w beale.wl.txt
 
     pip install diceware
     pip install pwgen-passphrase
