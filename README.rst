@@ -19,6 +19,7 @@ Examples::
 * http://weber.fi.eu.org/software/diceware/src/francais.wordlist.asc
 * https://github.com/ulif/diceware
 * https://github.com/xmikos/pwgen-passphrase
+* https://xkcd.com/2626/
 
 ::
 
