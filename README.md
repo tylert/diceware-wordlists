@@ -18,9 +18,12 @@ Examples:
 * <https://weber.fi.eu.org/software/diceware/src/francais.wordlist.asc>
 * <https://github.com/ulif/diceware>
 * <https://github.com/xmikos/pwgen-passphrase>
+* <https://github.com/redacted/XKCD-password-generator>
+* <https://xkcd.com/936>
 * <https://xkcd.com/2626>
 
     pip install diceware
     pip install pwgen-passphrase
+    pip install xkcdpass
 
     pwgen-passphrase --wordlist eff-long
